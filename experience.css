@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main_container{
+    background: url("coding.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+}
+.overlay_content {
+    background: rgba(26, 21, 21, 0.7);
+    padding-bottom: 4rem;
+}
+.header{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: transparent rgb(56, 53, 53);
+    margin-bottom: 3rem;
+    border-bottom: 5px solid white;
+}
+.header_for_input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.home{
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    float: left;
+    margin: 1rem;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    font-size: 25px;
+}
+.abouts{
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    float: left;
+    margin: 1rem;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    font-size: 25px;
+}
+.contact{
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    float: left;
+    margin: 1rem;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1{
+    padding: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: white;
+}
+p{
+    color: white;
+}
+.second_container{
+    width: 100%;
+    height: 35vh;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 2rem;
+}
+.boxs{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding: 1rem;
+    font-weight: bold;
+}
+.box_btn{
+    margin-top: 1.8rem;
+    justify-content: center;
+}
+button{
+    padding: 0.8rem 1.4rem;
+    border: none;
+    background-color: rgb(104, 24, 24);
+    color: white;
+    margin-left: 15px;
+    transition: 0.5s ease-in-out;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: white;
+    color: rgb(104, 24, 24);
+}
+.new_btn{
+    background-color: white;
+    color: rgb(104, 24, 24);
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+.new_btn:hover{
+    background-color: rgb(104, 24, 24);
+    color: white;
+}
+.third_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(104, 24, 24);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgb(255, 255, 255);
+}
+
+.input {
+    padding-top: 2.5rem;
+}
+
+i {
+    color: gold;
+    margin-bottom: 1rem;
+    transition: 0.3s ease;
+}
+
+.input_words h3 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.input_words p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+

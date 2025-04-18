@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main_container{
+    background: url("coding.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+}
+.overlay_content {
+    background: rgba(26, 21, 21, 0.7);
+    padding-bottom: 4rem;
+}
+.header{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: transparent rgb(56, 53, 53);
+    margin-bottom: 5rem;
+    border-bottom: 5px solid white;
+}
+.header_for_input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.home{
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    float: left;
+    margin: 1rem;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    font-size: 25px;
+}
+.abouts{
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    float: left;
+    margin: 1rem;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    font-size: 25px;
+}
+.contact{
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    float: left;
+    margin: 1rem;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.first_container {
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about {
+    display: flex;
+    background-color: rgb(104, 24, 24);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+    align-items: flex-start; 
+}
+
+.picture {
+    width: 35%;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+.words {
+    width: 65%;
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    color: #fff;
+}
+
+.words h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #fff;
+}
+
+.words h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0 0.4rem 0;
+    color: #ccc;
+}
+
+.words h4 {
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin: 0.2rem 0;
+}
+
+samp {
+    font-size: 0.95rem;
+    margin-left: 3rem;
+    color: #ccc;
+    display: table-cell;
+}
+.Welcome-heading {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    padding: 3rem;
+    font-weight: bold;
+}
+
+
+

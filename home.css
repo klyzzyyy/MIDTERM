@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main_container{
+    background: url("coding.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+}
+.overlay_content {
+    background: rgba(14, 11, 11, 0.7);
+    padding-bottom: 4rem;
+}
+  
+.header{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: transparent rgb(56, 53, 53);
+    margin-bottom: 7rem;
+    border-bottom: 5px solid white;
+}
+.header_for_input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    float: left;
+    margin: 1rem;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.resume-heading {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    padding: 3rem;
+    font-weight: bold;
+}
+.resume-paragraph {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+  
+  
+.second_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(104, 24, 24);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgb(255, 255, 255);
+}
+
+.input {
+    padding-top: 2.5rem;
+}
+
+i {
+    color: gold;
+    margin-bottom: 1rem;
+    transition: 0.3s ease;
+}
+
+.input_words h2 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.input_words p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
